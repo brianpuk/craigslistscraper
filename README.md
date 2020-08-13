@@ -12,4 +12,19 @@
 -craigslistUSA.xlsx contains all Craigslist car listing ads in USA, can edit to add/remove any listings
 
 ## How To Use
--Toggle boolean run switches in main.py to choose if you want to run analysis, fetch new results, read to database, or do all. 
+-Toggle boolean run switches in main.py to choose if you want to run analysis, fetch new results, read to database, or do all. For instance: 
+
+  run_fetch_price_data = False
+  run_test_queries = False
+  run_test_read_write = False
+  run_calc_stats = True
+
+
+will only run statistical analysis on collected data, whereas 
+
+  run_fetch_price_data = True
+  run_test_queries = False
+  run_test_read_write = False
+  run_calc_stats = True
+  
+will fetch new data from live Craigslist listings and *then* run statistical analysis 
