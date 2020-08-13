@@ -1,0 +1,65 @@
+Todo, when writing inserts for these, combine region and division so we only need one column?
+Do we need the extra key data?  Maybe a blind key "REGION_ALT_KEY". Yea, do the latter.
+
+
+Region1Northeast_New England,	Connecticut, 
+Region1Northeast_New England,	Maine, 
+Region1Northeast_New England,	Massachusetts, 
+Region1Northeast_New England,	New Hampshire, 
+Region1Northeast_New England,	Rhode Island, 
+Region1Northeast_New England,	Vermont
+
+Region1Northeast_Mid_Atlantic,	New Jersey, 
+Region1Northeast_Mid_Atlantic,	New York, 
+Region1Northeast_Mid_Atlantic,	Pennsylvania
+
+
+Region2_Midwest_East_North_Central,		Illinois, 
+Region2_Midwest_East_North_Central,		Indiana, 
+Region2_Midwest_East_North_Central,		Michigan, 
+Region2_Midwest_East_North_Central,		Ohio, 
+Region2_Midwest_East_North_Central,		Wisconsin
+
+Region2_Midwest_West_North_Central,	Iowa
+Region2_Midwest_West_North_Central,	Kansas
+Region2_Midwest_West_North_Central,	Minnesota
+Region2_Midwest_West_North_Central,	Missouri
+Region2_Midwest_West_North_Central,	Nebraska
+Region2_Midwest_West_North_Central,	North Dakota
+Region2_Midwest_West_North_Central,	South Dakota
+
+Region3_South_South_Atlantic,	Delaware, 
+Region3_South_South_Atlantic,	Florida, 
+Region3_South_South_Atlantic,	Georgia, 
+Region3_South_South_Atlantic,	Maryland, 
+Region3_South_South_Atlantic,	North Carolina, 
+Region3_South_South_Atlantic,	South Carolina, 
+Region3_South_South_Atlantic,	Virginia, 
+Region3_South_South_Atlantic,	District of Columbia
+Region3_South_South_Atlantic,	West Virginia
+
+Region3_South_East_South_Central,	Alabama, 
+Region3_South_East_South_Central,	Kentucky, 
+Region3_South_East_South_Central,	Mississippi, 
+Region3_South_East_South_Central,	Tennessee
+
+Region3_South_West_South_Central,	Arkansas 
+Region3_South_West_South_Central,	Louisiana 
+Region3_South_West_South_Central,	Oklahoma
+Region3_South_West_South_Central,	Texas
+
+Region4_West_Mountain,	Arizona, 
+Region4_West_Mountain,	Colorado, 
+Region4_West_Mountain,	Idaho, 
+Region4_West_Mountain,	Montana, 
+Region4_West_Mountain,	Nevada, 
+Region4_West_Mountain,	New Mexico, 
+Region4_West_Mountain,	Utah, 
+Region4_West_Mountain,	Wyoming
+
+Region4_West_Pacific,	Alaska, 
+Region4_West_Pacific,	California, 
+Region4_West_Pacific,	Hawaii, 
+Region4_West_Pacific,	Oregon, 
+Region4_West_Pacific,	Washington
+

@@ -1,0 +1,61 @@
+
+-- OK with latest table insert swl.  
+-- Run  SQL_DB_AND_TABLE_INSERTS_WEB_DATA_PROJ072020.sql  first
+USE SALE_PRICE_STATS;
+INSERT INTO STATE_INFO( STATE_ID, STATE_NAME,  REGION_SK_FED, REGION_SK_CENSUS, GDP_RANK,GDP_DOLLARS, GDP_PERCENT, GDP_PER_CAPITA, POP_RANK,  POP,  POP_PERCENT, LAST_UPD_DATE)
+VALUES
+('AL'	,'Alabama',			'Region_3_South',		'East_South_Central',	27,		234054,		1.1,	47735,		24,	4903185,		1.48, GETDATE()), 
+('AK'	,'Alaska',			'Region_4_West',		'Pacific',				48,		55759,		0.3,	76220,		49,	731545,			0.22, GETDATE()), 
+('AZ'	,'Arizona',			'Region_4_West',		'Mountain',				20,		372522,		1.7,	51179,		14,	7278717,		2.19, GETDATE()), 
+('AR'	,'Arkansas',		'Region_3_South',		'West_South_Central',	35,		135225,		0.6,	44808,		34,	3017804,		0.91, GETDATE()), 
+('CA'	,'California',		'Region_4_West',		'Pacific',				1,		3183251,	14.6,	80563,		1,	39512223,		11.91, GETDATE()), 
+('CO'	,'Colorado',		'Region_4_West',		'Mountain',				16,		396367,		1.8,	68828,		21,	5758736,		1.74, GETDATE()), 
+('CT'	,'Connecticut',		'Region_1_Northeast',	'New_England',			23,		288985,		1.3,	81055,		29,	3565287,		1.07, GETDATE()), 
+('DE'	,'Delaware',		'Region_3_South',		'South_Atlantic',		44,		76410,		0.4,	78468,		46,	973764,			0.29, GETDATE()), 
+('DC'	,'District Of Columbia', 'Region_3_South',	'South_Atlantic',		34,		148231,		0.7,	210033,		50,	705749,			0.21, GETDATE()), 
+('FL'	,'Florida',			'Region_3_South',		'South_Atlantic',		4,		1111378,	5.1,	51745,		3,	21477737,		6.47, GETDATE()), 
+('GA'	,'Georgia',			'Region_3_South',		'South_Atlantic',		9,		625329,		2.9,	58896,		8,	10617423,		3.20, GETDATE()), 
+('HI'	,'Hawaii',			'Region_4_West',		'Pacific',				40,		98536,		0.5,	69593,		41,	1415872,		0.43, GETDATE()), 
+('ID'	,'Idaho',			'Region_4_West',		'Mountain',				42,		82265,		0.4,	46043,		40,	1787065,		0.54, GETDATE()), 
+('IL'	,'Illinois',		'Region_2_Midwest',		'East_North_Central',	5,		908913,		4.2,	71727,		6,	12671821,		3.82, GETDATE()), 
+('IN'	,'Indiana',			'Region_2_Midwest',		'East_North_Central',	19,		381733,		1.8,	56702,		17,	6732219,		2.03, GETDATE()), 
+('IA'	,'Iowa',			'Region_2_Midwest',		'West_North_Central',	30,		197172,		0.9,	62493,		32,	3155070,		0.95, GETDATE()), 
+('KS'	,'Kansas',			'Region_2_Midwest',		'West_North_Central',	33,		175703,		0.8,	60310,		36,	2913314,		0.88, GETDATE()), 
+('KY'	,'Kentucky',		'Region_3_South',		'East_South_Central',	28,		217564,		1,		48697,		26,	4467673,		1.35, GETDATE()), 
+('LA'	,'Louisiana',		'Region_3_South',		'West_South_Central',	24,		267051,		1.2,	57445,		25,	4648794,		1.40, GETDATE()), 
+('ME'	,'Maine',			'Region_1_Northeast',	'New England',			45,		68441,		0.3,	50915,		43,	1344212,		0.41, GETDATE()), 
+('MD'	,'Maryland',		'Region_3_South',		'South_Atlantic',		15,		434312,		2,		71838,		19,	6045680,		1.82, GETDATE()), 
+('MA'	,'Massachusetts',	'Region_1_Northeast',	'New England',			11,		604208,		2.8,	86942,		15,	6892503,		2.09, GETDATE()), 
+('MI'	,'Michigan',		'Region_2_Midwest',		'East_North_Central',	14,		548567,		2.5,	54928,		10,	9986857,		3.01, GETDATE()), 
+('MN'	,'Minnesota',		'Region_2_Midwest',		'West_North_Central',	17,		385907,		1.8,	68427,		22,	5639632,		1.70, GETDATE()), 
+('MS'	,'Mississippi',		'Region_3_South',		'East_South_Central',	37,		120429,		0.6,	40464,		35,	2976149,		0.90, GETDATE()), 
+('MO'	,'Missouri',		'Region_2_Midwest',		'West_North_Central',	22,		336816,		1.6,	54879,		18,	6137428,		1.85, GETDATE()), 
+('MT'	,'Montana',			'Region_4_West',		'Mountain',				50,		52948,		0.2,	49540,		44,	1068778,		0.32, GETDATE()), 
+('NE'	,'Nebraska',		'Region_2_Midwest',		'West_North_Central',	36,		129098,		0.6,	66737,		38,	1934408,		0.58, GETDATE()), 
+('NV'	,'Nevada',			'Region_4_West',		'Mountain',				32,		180406,		0.8,	58570,		33,	3080156,		0.93, GETDATE()), 
+('NH'	,'New Hampshire',	'Region_1_Northeast',	'New_England',			41,		89836,		0.4,	66069,		42,	1359711,		0.41, GETDATE()), 
+('NJ'	,'New Jersey',		'Region_1_Northeast',	'Mid_Atlantic',			8,		652412,		3,		73451,		11,	8882190,		2.68, GETDATE()), 
+('NM'	,'New Mexico',		'Region_4_West',		'Mountain',				38,		105263,		0.5,	50201,		37,	2096829,		0.63, GETDATE()), 
+('NY'	,'New York',		'Region_1_Northeast',	'Mid_Atlantic',			3,		1751674,	8.1,	90043,		4,	19453561,		5.86, GETDATE()), 
+('NC'	,'North Carolina',	'Region_3_South',		'South_Atlantic',		12,		596383,		2.7,	56862,		9,	10488084,		3.16, GETDATE()), 
+('ND'	,'North Dakota',	'Region_2_Midwest',		'West_North_Central',	47,		57400,		0.3,	75321,		48,	762062,			0.23, GETDATE()), 
+('OH'	,'Ohio',			'Region_2_Midwest',		'East_North_Central',	7,		706764,		3.3,	60464,		7,	11689100,		3.52, GETDATE()), 
+('OK'	,'Oklahoma',		'Region_3_South',		'West_South_Central',	29,		207381,		1,		52409,		28,	3956971,		1.19, GETDATE()), 
+('OR'	,'Oregon',			'Region_4_West',		'Pacific',				25,		255418,		1.2,	60558,		27,	4217737,		1.27, GETDATE()), 
+('PA'	,'Pennsylvania',	'Region_1_Northeast',	'Mid_Atlantic',			6,		824603,		3.8,	64412,		5,	12801989,		3.86, GETDATE()), 
+('RI'	,'Rhode Island',	'Region_1_Northeast',	'New England',			46,		64441,		0.3,	60830,		45,	1059361,		0.32, GETDATE()), 
+('SC'	,'South Carolina',	'Region_3_South',		'South_Atlantic',		26,		249958,		1.2,	48547,		23,	5148714,		1.55, GETDATE()), 
+('SD'	,'South Dakota',	'Region_2_Midwest',		'West_North_Central',	49,		54057,		0.3,	61104,		47,	884659,			0.27, GETDATE()), 
+('TN'	,'Tennessee',		'Region_3_South',		'East_South_Central',	18,		385741,		1.8,	56451,		16,	6829174,		2.06, GETDATE()), 
+('TX'	,'Texas',			'Region_3_South',		'West_South_Central',	2,		1918065,	8.8,	66149,		2,	28995881,		8.74, GETDATE()), 
+('UT'	,'Utah',			'Region_4_West',		'Mountain',				31,		192013,		0.9,	59892,		30,	3205958,		0.97, GETDATE()), 
+('VT'	,'Vermont',			'Region_1_Northeast',	'New_England',			52,		35271,		0.2,	56525,		51,	623989,			0.19, GETDATE()), 
+('VA'	,'Virginia',		'Region_3_South',		'South_Atlantic',		13,		561846,		2.6,	65824,		12,	8535519,		2.57, GETDATE()), 
+('WA'	,'Washington',		'Region_4_West',		'Pacific',				10,		610488,		2.8,	80170,		13,	7614893,		2.29, GETDATE()), 
+('WV'	,'West Virginia',	'Region_3_South',		'South_Atlantic',		43,		78507,		0.4,	43806,		39,	1792147,		0.54, GETDATE()), 
+('WI'	,'Wisconsin',		'Region_2_Midwest',		'East_North_Central',	21,		351922,		1.6,	60425,		20,	5822434,		1.75, GETDATE()), 
+('WY'	,'Wyoming',			'Region_4_West',		'Mountain',				51,		39794,		0.2,	68757,		52,	578759,			0.17, GETDATE())
+
+
+select * from STATE_INFO
+where REGION_SK_FED = 'Region_1_Northeast'
