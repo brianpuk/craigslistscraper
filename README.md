@@ -12,7 +12,7 @@
 -```craigslistUSA.xlsx``` contains all Craigslist listing link bases in USA, can edit to add/remove any listings from any particular areas
 
 ## How To Use
--Toggle boolean run switches in main.py to choose if you want to run analysis, fetch new results, read to database, or do all. For instance: 
+-Toggle boolean run switches in ```main.py``` to choose if you want to run analysis, fetch new results, read to database, or do all. For instance: 
 
  ```
   run_fetch_price_data = False
@@ -35,7 +35,7 @@ will only run statistical analysis on collected data, whereas
   
 will fetch new data from live Craigslist listings and *then* run statistical analysis 
 
-Also be sure to change ```self.server``` in db_readwrite.py to **your** machine's name
+Also be sure to change ```self.server``` in ```db_readwrite.py``` to **your** machine's name
 
  ```
 def __init__(self):
