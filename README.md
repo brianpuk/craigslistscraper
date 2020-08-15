@@ -45,5 +45,9 @@ def __init__(self):
         self.passWord = "TestPassword"
 ```
 
+## SQL
 
+-Can use pre written SQL scripts in ```PricingDataDatabaseSQL``` to initialize databases in your local machine
+
+- run ```001__SQL_DB_AND_TABLE_INSERTS```, then ```002__SQL_STATE_INFO_INSERTS```
 
