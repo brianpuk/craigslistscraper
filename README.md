@@ -47,7 +47,7 @@ def __init__(self):
 
 ## SQL
 
--Can use pre written SQL scripts in ```PricingDataDatabaseSQL``` to initialize databases in your local machine
+-Can use pre written SQL scripts in ```PricingDataDatabaseSQL``` to initialize databases in your local machine for state data like census regions, GDP, etc.
 
 - run ```001__SQL_DB_AND_TABLE_INSERTS```, then ```002__SQL_STATE_INFO_INSERTS```
 
