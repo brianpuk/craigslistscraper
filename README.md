@@ -9,7 +9,7 @@
 
 -Ported from jupyter notebook into class structure, able to write to Microsoft SQL server for scald data management 
 
--craigslistUSA.xlsx contains all Craigslist car listing ads in USA, can edit to add/remove any listings
+-craigslistUSA.xlsx contains all Craigslist listing link bases in USA, can edit to add/remove any listings from any particular areas
 
 ## How To Use
 -Toggle boolean run switches in main.py to choose if you want to run analysis, fetch new results, read to database, or do all. For instance: 
