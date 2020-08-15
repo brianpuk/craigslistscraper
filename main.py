@@ -1,6 +1,5 @@
 import pandas as pd
 import xlrd
-from data_read_write_tests import testGDPRankQueries, testPOPRankQueries, testStateFetchQueries, testRegionFetchQueries
 from db_readwrite import DbReadWrite
 from MockDataCreator import MockDataCreator
 from CraigslistPriceScrapingTool import CraigslistScraper
