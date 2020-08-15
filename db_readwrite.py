@@ -8,7 +8,7 @@ import pandas as pd
 class DbReadWrite:
 
     def __init__(self):
-        self.server = "LAPTOP-22T8FUG0"
+        self.server = "" # repalce with your machine's name
         self.database = "SALE_PRICE_STATS"
         self.userName = "TestUser"
         self.passWord = "TestPassword"
