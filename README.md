@@ -5,9 +5,9 @@
 
 # Craigslist Car Listing Scraper
 
--Python program that scrapes all car listings from all 400+ USA craigslist links, with price, nehgborhood, state, and listing title info.
+-Python program that scrapes and analyzes all car listings from all 400+ USA craigslist links, with price, nehgborhood, state, and listing title info
 
--Ported from jupyter notebook into class structure, able to write to Microsoft SQL server for scald data management 
+-Can write to Microsoft SQL Server using PyODBC for scaled data management 
 
 -craigslistUSA.xlsx contains all Craigslist listing link bases in USA, can edit to add/remove any listings from any particular areas
 
@@ -34,3 +34,16 @@ will only run statistical analysis on collected data, whereas
 ```
   
 will fetch new data from live Craigslist listings and *then* run statistical analysis 
+
+Also be sure to change ```self.server``` in db_readwrite.py to **your** machine's name
+
+ ```
+def __init__(self):
+        self.server = "" <--repalce with your machine's name
+        self.database = "SALE_PRICE_STATS"
+        self.userName = "TestUser"
+        self.passWord = "TestPassword"
+```
+
+
+
